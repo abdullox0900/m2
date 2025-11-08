@@ -1,9 +1,9 @@
 <template>
-  <section class="w-full pt-[60px] pb-[140px] max-[425px]:pt-0 max-[425px]:pb-[60px]">
+  <section class="w-full mt-[60px] mb-[140px] max-[425px]:mt-0 max-md:mb-[60px]">
     <img 
       src="../../app/assets/img/hero.png" 
       alt="Hero Banner" 
-      class="h-[560px] w-full max-md:h-[400px] max-[425px]:h-[320px] max-[425px]:h-[168px] max-[425px]:rounded-xl"
+      class="lg:h-[560px] w-full max-md:h-[168px] max-md:object-cover md:h-[168px] max-md:rounded-xl"
     />
   </section>
 </template>

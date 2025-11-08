@@ -6,7 +6,7 @@ const props = defineProps<{
 </script>
 
 <template>
-  <section class="pb-[140px]">
+  <section class="pb-[140px] max-md:pb-[60px]">
     <div class="grid gap-[40px] lg:grid-cols-3 max-md:gap-[20px]">
         <!-- Block 1 -->
       <div class="rounded-xl bg-m2-light p-[40px] lg:col-span-2 max-md:p-[20px]">
