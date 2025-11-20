@@ -9,4 +9,10 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  runtimeConfig: {
+    apiSecret: process.env.API_SECRET || '',
+    public: {
+      apiBase: process.env.API_BASE || 'http://localhost:8000'
+    }
+  }
 })
